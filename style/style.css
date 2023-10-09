@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Outfit ;
+    src: url('./fonts/Outfit-VariableFont_wght.ttf');
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+}
+.card{
+ 
+ background-color:hsl(0, 0%, 100%);
+ border-radius: 20px;
+ overflow-wrap: break-word;
+ width: 400px;
+ align-items: center;
+ margin-top:20px ;
+}
+.card img{
+    width: 90%;
+    margin: 20px;
+    border-radius: 15px;
+}
+.card .description *{
+    font-family: Outfit;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-line;
+    padding: 0px 20px;
+
+}
+.card .description .header{
+    color: hsl(218, 44%, 22%);
+}
+.card .description .line{
+    color: hsl(212, 11%, 66%);
+    font-weight: bold;
+    font-size: 1em;
+}
